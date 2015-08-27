@@ -1,0 +1,16 @@
+h1, h2, h3, h4, h5, a, section, header, footer, ol, li, div, p {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  color: black;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: '';
+}
